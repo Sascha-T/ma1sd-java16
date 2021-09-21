@@ -1,4 +1,5 @@
 FROM openjdk:16-jdk-alpine AS builder
+LABEL org.opencontainers.image.source="https://github.com/Sascha-T/ma1sd-java16"
 
 RUN apk update && apk add gradle git && rm -rf /var/lib/apk/* /var/cache/apk/*
 
