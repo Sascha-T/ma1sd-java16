@@ -86,13 +86,7 @@ See the [dedicated document](docs/getting-started.md)
 ## Troubleshooting
 A basic troubleshooting guide is available [here](docs/troubleshooting.md).
 
-## Community
-Over Matrix: [#ma1sd:ru-matrix.org](https://matrix.to/#/#ma1sd:ru-matrix.org) ([Preview](https://view.matrix.org/room/!CxwBdgAlaphCARnKTA:ru-matrix.org/))
-
-## Commercial
-Sorry, I cannot provide commercial support (at least now). But always try to help you.
-
-Don't hesitate to ask about project and feel free to create issues at https://github.com/ma1uta/ma1sd
+## This is a community fork of ma1sd, no support will be provided anyhow.
 
 # Contribute 
 You can contribute as a community member by:
@@ -113,7 +107,3 @@ See the [dedicated document](docs/faq.md)
 # Migration from mxisd
 
 See the [migration guide](docs/migration-from-mxisd.md)
-
-# Contact
-Get in touch via:
-- Matrix: [#ma1sd:ru-matrix.org](https://matrix.to/#/#ma1sd:ru-matrix.org)

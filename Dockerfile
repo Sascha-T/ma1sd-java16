@@ -1,4 +1,4 @@
-FROM --platform=$BUILDPLATFORM openjdk:8-jre-alpine AS builder
+FROM openjdk:16-jdk-alpine AS builder
 
 RUN apk update && apk add gradle git && rm -rf /var/lib/apk/* /var/cache/apk/*
 
@@ -6,7 +6,7 @@ WORKDIR /ma1sd
 COPY . .
 RUN ./gradlew shadowJar
 
-FROM openjdk:8-jre-alpine
+FROM openjdk:16-jdk-alpine
 
 RUN apk update && apk add bash && rm -rf /var/lib/apk/* /var/cache/apk/*
 

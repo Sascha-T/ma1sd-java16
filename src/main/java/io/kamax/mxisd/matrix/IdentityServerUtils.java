@@ -33,6 +33,7 @@ import org.apache.http.impl.client.CloseableHttpClient;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.xbill.DNS.*;
+import org.xbill.DNS.Record;
 
 import java.io.IOException;
 import java.net.MalformedURLException;
